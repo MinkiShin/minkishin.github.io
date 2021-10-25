@@ -1,6 +1,6 @@
 ---
 title: "Shelter Animal Outcomes"
-excerpt: "Help Improve Outcomes for Animal Shelters"
+excerpt: "Help Improve Outcomes for Shelter Animals<br/><img src='/images/dog.png'>"
 collection: portfolio
 ---
 
