@@ -3,13 +3,13 @@ title: "Chest X-Ray Images (Pneumonia)"
 excerpt: "Help Early Diagnosis of Pneumonia<br/><img src='/images/Screen Shot 2021-10-24 at 5.34.57 PM.png'>"
 collection: portfolio
 ---
-<img src='/images/Screen Shot 2021-10-24 at 5.34.57 PM.png'><br/>
+<br/><img src='/images/Screen Shot 2021-10-24 at 5.34.57 PM.png'><br/>
 Machine Learning and Deep Learning have a huge scope in healthcare but applying them in healthcare isn't that simple.
 <br/>
 Pneumonia is an inflammatory condition of the lung affecting primarily the small air sacs known as alveoli. Symptoms typically include some combination of productive or dry cough, chest pain, fever and difficulty breathing. The severity of the condition is variable. 
 <br/>
 It can be either: 1) Bacterial pneumonia 2) Viral Pneumonia 3) Mycoplasma pneumonia and 4) Fungal pneumonia. This dataset consists pneumonia samples belonging to the first two classes. The dataset consists of only very few samples and that too unbalanced. The aim of this project is to develop a robust deep learning model from scratch on this limited amount of data to predict whether an X-ray scan shows presence of pneumonia. This is especially useful during these current times as COVID-19 is known to cause pneumonia.
-<img src='/images/Screen Shot 2021-10-24 at 5.38.48 PM.png'><br/>
+<br/><img src='/images/Screen Shot 2021-10-24 at 5.38.48 PM.png'><br/>
 
 Figure 1: Overview of the dataset
 
@@ -17,7 +17,7 @@ The dataset consists of 5,863 X-Ray images and 2 categories (Pneumonia/Normal). 
 <img src='/images/Screen Shot 2021-10-24 at 5.43.22 PM.png'><br/>
 Figure 2: Building convolutional neural network (CNN) – residual learning
 CNN is the standard in performing image classification task. We used ResNet which is a type of CNN with residual learning feature that allows the learning weights propagate better to the deeper layers of the neural network. 
-<img src='/images/Screen Shot 2021-10-24 at 5.43.29 PM.png'><br/>
+<br/><img src='/images/Screen Shot 2021-10-24 at 5.43.29 PM.png'><br/>
 Figure 3: Model evaluation
 Confusion matrix is calculated by applying the completed CNN model to an independent test set comprised on X-ray images unseen during the training process. Precision and recall are the two metrics used to evaluation the model. 
 <br/>
@@ -29,5 +29,5 @@ How do I evaluate the project’s success? I would monitor the results and recei
 What did I learn from this project: I learned how common it is for people to get contract pneumonia as over a million people are diagnosed each year. However, such a disease is hard to diagnose as the symptoms of coughing, fever, and chest discomfort is very synonymous with that of the flu or the common cold. Therefore, it was imperative to find other easier solutions to accurately diagnose diseases like pneumonia, like so using X-Rays.
 <br/>
 What’s next for this project:This pneumonia diagnostic tool is developed using a dataset with limited cohort from Guangzhou, China. For expanded usage of this tool, we need to build a diagnostic model that covers various race and gender. Once this pneumonia diagnostic tool gains credible reputation, the medical staffs can use this tool to not only diagnose pneumonia, but also assist doctors in confirming such diagnostics retrospectively for quality control purpose.
-<img src='/images/Screen Shot 2021-10-24 at 5.45.20 PM.png'><br/>
+<br/><img src='/images/Screen Shot 2021-10-24 at 5.45.20 PM.png'><br/>
 
