@@ -7,9 +7,11 @@ collection: portfolio
 Machine Learning and Deep Learning have a huge scope in healthcare but applying them in healthcare isn't that simple.
 <br/>
 Pneumonia is an inflammatory condition of the lung affecting primarily the small air sacs known as alveoli. Symptoms typically include some combination of productive or dry cough, chest pain, fever and difficulty breathing. The severity of the condition is variable. 
-<br/>
+<br/><br/>
 It can be either: 1) Bacterial pneumonia 2) Viral Pneumonia 3) Mycoplasma pneumonia and 4) Fungal pneumonia. This dataset consists pneumonia samples belonging to the first two classes. The dataset consists of only very few samples and that too unbalanced. The aim of this project is to develop a robust deep learning model from scratch on this limited amount of data to predict whether an X-ray scan shows presence of pneumonia. This is especially useful during these current times as COVID-19 is known to cause pneumonia.
-<br/><img src='/images/Screen Shot 2021-10-24 at 5.38.48 PM.png'><br/>
+<br/>
+
+<img src='/images/Screen Shot 2021-10-24 at 5.38.48 PM.png'><br/>
 
 Figure 1: Overview of the dataset
 
