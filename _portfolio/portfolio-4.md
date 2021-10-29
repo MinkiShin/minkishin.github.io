@@ -1,10 +1,10 @@
 ---
 title: "What Does a CNN See"
-excerpt: "Model Interpretability<br/><img src='Screen Shot 2021-10-29 at 2.10.08 PM.png'>"
+excerpt: "Model Interpretability<br/><img src='/images/Screen Shot 2021-10-29 at 2.10.08 PM.png'>"
 collection: portfolio
 ---
 
-<img src='Screen Shot 2021-10-29 at 2.10.08 PM.png'><br/>
+<img src='/images/Screen Shot 2021-10-29 at 2.10.08 PM.png'><br/>
 
 **Background**
 Machine learning models, especially Deep Learning models are often considered as a black box and hard to interpret. Well, this statement is neither completely true not it is completely false. It is a fact that debugging a deep learning model is way harder than other machine learning models but there are ways by which you can get insights about your model and to an extent, you can see what is happening.
@@ -13,7 +13,7 @@ Machine learning models, especially Deep Learning models are often considered as
 When you have limited data, deep models don't do very well. Deep learning models are data hungry. The more data you provide to a deep learning model, the more it performance improves (until unless your algorithm has reached a limit). This is where data augmentation really comes handy. We will be using imgaug, a very powerful library for augmenting our images. We will define a sequence of augmentations and for each image, one of these augmentations will be applied to the image during training
 <br/>
 
-<img src='Screen Shot 2021-10-29 at 2.12.19 PM.png'>
+<img src='/images/Screen Shot 2021-10-29 at 2.12.19 PM.png'>
 <br/>
 
 Figure 1: Gradient-weighted Class Activation Mapping (Grad-CAM)
@@ -43,7 +43,7 @@ Define a new model, vis_model, that takes the same input as our model's input bu
 For CAM, we will take the same sample image and get the output of the last convolution layer. We also compute the gradients for this layer which we will use to generate a heatmap. 
 <br/>
 
-<img src='Screen Shot 2021-10-29 at 2.26.12 PM.png'>
+<img src='/images/Screen Shot 2021-10-29 at 2.26.12 PM.png'>
 <br/>
 
 Figure 2: Model evaluation
