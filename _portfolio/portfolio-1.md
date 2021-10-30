@@ -27,16 +27,16 @@ Using a dataset of intake information including breed, color, sex, and age from 
 <br/><img src='/images/Screen Shot 2021-10-24 at 4.43.35 PM.png'><br/><br>
 **Figure 1: Overview of the Dataset**
 <br/>
-A. The faith of animals in the shelter are recorded for both cat and dog by time of day. They either get adopted, die, euthanized, returned to owner, or transferred to another shelter.
+**A.** The faith of animals in the shelter are recorded for both cat and dog by time of day. They either get adopted, die, euthanized, returned to owner, or transferred to another shelter.
 <br/>
 
-B. The faith of animals by their life stage. Babies get adopted more often.
+**B.** The faith of animals by their life stage. Babies get adopted more often.
 <br/>
 
-C. X and Y axes shows different breeds, and each square represent mixes of the two breeds in X and Y. This plot describes the adoption rate for the different combinations of mixed breed dogs. In the heatmap, blue represents below average and red represents above average in adoption rate.
+**C.** X and Y axes shows different breeds, and each square represent mixes of the two breeds in X and Y. This plot describes the adoption rate for the different combinations of mixed breed dogs. In the heatmap, blue represents below average and red represents above average in adoption rate.
 <br/>
 
-D. Number of dogs by the breed in logarithmic scale. The dataset is highly imbalanced by the breed. Weighted model by the class sample size is recommended.
+**D.** Number of dogs by the breed in logarithmic scale. The dataset is highly imbalanced by the breed. Weighted model by the class sample size is recommended.
 <br/>
 
 <img src='/images/Screen Shot 2021-10-24 at 4.43.46 PM.png'><br/><br>

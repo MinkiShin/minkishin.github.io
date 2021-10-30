@@ -36,6 +36,7 @@ Clinicians at the radiology department could use the model to assist them in pne
 <br/>
 I would monitor the results and receive feedbacks from clinicians and ask if those who were correctly diagnosed with pneumonia were aided with the assist of my model. 
 <br/>
+
 **What did I learn from this project** 
 <br/>
 I learned how common it is for people to get contract pneumonia as over a million people are diagnosed each year. However, such a disease is hard to diagnose as the symptoms of coughing, fever, and chest discomfort is very synonymous with that of the flu or the common cold. Therefore, it was imperative to find other easier solutions to accurately diagnose diseases like pneumonia, like so using X-Rays.

@@ -55,18 +55,15 @@ The model determines which species a monkey is when shown a picture of a random 
 
 **How do I evaluate the project’s success?**
 <br/>
-
 Test to see if the model is able to correctly label the accurate species of a shown picture of a monkey. 
 <br/>
 
 **What did I learn from this project?**
 <br/>
-
 I learned how diverse monkeys are in general as there are many such species around the world. Even with the ten species that are tested for this dataset, there were hundreds and thousands of different pictures available for testing. Therefore, it was interesting and cool to find an easy solution to correctly find the right species of monkey.
 <br/>
 
 **What’s next for this project?**
 <br/>
-
 This model can be extended for far more beyond the only ten monkeys available for testing. As there are around 260 types of monkeys in the world, it would be very cool to have a model to differentiate between every single species.
 <br/>
