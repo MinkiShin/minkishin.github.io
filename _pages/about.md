@@ -31,25 +31,25 @@ I am a self-learned expert in machine learning and big data analysis in various 
 Take a look at some of the things I love working on.
 <br/>
 
-<img src='/images/download.jpg'><br/>
+<img src='/images/download.jpg' width="200"/><br/>
 **Image Processing**
 <br/>
 I apply real time semantic segmentation to detect human hands and transcribe sign language through supervised machine learning. 
 <br/>
 
-<img src='/images/Screen Shot 2021-10-30 at 3.18.35 PM.png'><br/>
+<img src='/images/Screen Shot 2021-10-30 at 3.18.35 PM.png'width="200"/><br/>
 **Natural Language Processing**
 <br/>
 I use transcribed sign language to further interpret and convert into smooth sentences by filling the gap between lines. 
 <br/>
 
-<img src='/images/download.png'><br/>
+<img src='/images/download.png'width="200"/><br/>
 **Cloud Computing**
 <br/>
 I utilize AWS to develop and deploy machine learning systems equipped with image processing and/or natural language processing
 <br/>
 
-<img src='/images/Screen Shot 2021-10-30 at 3.30.46 PM.png'><br/>
+<img src='/images/Screen Shot 2021-10-30 at 3.30.46 PM.png'width="200"/><br/>
 **Data Analytics**
 <br/>
 I love telling a story. Getting to the heart of a problem and coming up with a solution based on careful observations.
