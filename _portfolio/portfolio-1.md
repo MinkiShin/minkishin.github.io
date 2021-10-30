@@ -29,13 +29,10 @@ Using a dataset of intake information including breed, color, sex, and age from 
 <br/>
 **A.** The faith of animals in the shelter are recorded for both cat and dog by time of day. They either get adopted, die, euthanized, returned to owner, or transferred to another shelter.
 <br/>
-
 **B.** The faith of animals by their life stage. Babies get adopted more often.
 <br/>
-
 **C.** X and Y axes shows different breeds, and each square represent mixes of the two breeds in X and Y. This plot describes the adoption rate for the different combinations of mixed breed dogs. In the heatmap, blue represents below average and red represents above average in adoption rate.
 <br/>
-
 **D.** Number of dogs by the breed in logarithmic scale. The dataset is highly imbalanced by the breed. Weighted model by the class sample size is recommended.
 <br/>
 
@@ -55,14 +52,13 @@ The model would help the animal shelters to understand what features of the anim
 <br/><br>
 **How do I evaluate the project’s success?**
 <br/>
-
 With the implementation of the model, I would receive feedbacks from the animal shelter staffs and those who adopted the animals that are treated with the suggestions of my tool. Ask them if those suggested features affected their decision to adopt the animal. 
 <br/><br>
 **What did I learn from this project.**
 <br/>
 I learned how many animals truly go through this horrific process and how much the care they receive from animal shelters could change their faith. In certain regions, the rate of euthanasia is high due to overcrowding in shelters. To reduce the rate of euthanasia, we can get started from understanding how we can treat the animals in the shelter to improve their chance of getting adopted.
 <br/><br>
-**What’s next for this project**
+**What’s next for this project?**
 <br/>
 I would like to package this predictive model as a user-friendly tool and distribute to animal shelters. The staffs can use this tool during registration process for the new animal to receive suggestions on what the shelter could do to improve the chances of this animal get adopted, or at least avoid getting euthanized since the early stage of their stay at the shelter.
 <br/><img src='/images/Screen Shot 2021-10-24 at 4.47.16 PM.png'><br>
