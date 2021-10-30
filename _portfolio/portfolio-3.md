@@ -1,54 +1,51 @@
 ---
-title: "Shelter Animal Outcomes"
-excerpt: "Help Improve Outcomes for Shelter Animals<br/><img src='/images/dog.png'>"
+title: "Sentiment Analysis on Movie Reviews"
+excerpt: "Application of roBERTa encoder with LSTM model<br/><img src='/images/Screen Shot 2021-10-29 at 2.45.42 PM.png'>"
 collection: portfolio
 ---
 
-<img src='/images/dog.png'><br/>
+<img src='/images/Screen Shot 2021-10-29 at 2.45.42 PM.png'><br/>
 
 **Background**
-<br>
-Every year, approximately 7.6 million companion animals end up in US shelters. Many animals are given up as unwanted by their owners, while others are picked up after getting lost or taken out of cruelty situations. Many of these animals find forever families to take them home, but just as many are not so lucky. 1 million dogs and cats are euthanized in the US every year.
-<br/><br>
-The number of dogs and cats euthanized in U.S. shelters annually has declined from approximately 2.6 million in 2011. This decline can be partially explained by an increase in the percentage of animals adopted and an increase in the number of stray animals successfully returned to their owners.
-<br/><br>
-Objectives
-The goal of this project is to predict the probability that an animal would be adopted or euthanized based on a single image. 
-<br/><br>
-Current Practices
-Australia uses several strategies to reduce the Euthanasia of shelter animals. The strategies include government policies, practices and attitudes of animal shelter staff. 
-Examples of the policies include fines if animals are found wandering outside of the owner’s property; public course offering such as Responsible Dog Ownership Course.
-<br/><br>
-Overview of the dataset
-Using a dataset of intake information including breed, color, sex, and age from the Austin Animal Center, we can understand trends in animal outcomes. These insights could help shelters focus their energy on specific animals who need a little extra help finding a new home.
-<br/><img src='/images/Screen Shot 2021-10-24 at 4.43.35 PM.png'><br/><br>
-Figure 1: Overview of the dataset
-The faith of animals in the shelter are recorded for both cat and dog by time of day. They either get adopted, die, euthanized, returned to owner, or transferred to another shelter.
-The faith of animals by their life stage. Babies get adopted more often.
-X and Y axes shows different breeds, and each square represent mixes of the two breeds in X and Y. This plot describes the adoption rate for the different combinations of mixed breed dogs. In the heatmap, blue represents below average and red represents above average in adoption rate.
-Number of dogs by the breed in logarithmic scale. The dataset is highly imbalanced by the breed. Weighted model by the class sample size is recommended.
-<br/><img src='/images/Screen Shot 2021-10-24 at 4.43.46 PM.png'><br/><br>
-Figure 2: Building weighted random forest model
-I built a random forest model weighted by the correlation of each variables to the outcome. The variables include Age, Intact, Time of day, Color, Name, Animal type, Sex, Mixed breed. 
-<br/><img src='/images/Screen Shot 2021-10-24 at 4.43.55 PM.png'><br>
-Figure 3: Model evaluation
-The loss function of the model is the multi-class logarithmic loss. where N is the number of animals in the test set, M is the number of outcomes; y is 1 if observation is in outcome and 0 otherwise, and p is the predicted probability that observation i belongs to outcome j.
-<br/><br>
-What does it do?
-The predictive model suggests which animal would likely to get adopted or euthanized. 
-The model would help the animal shelters to understand what features of the animal affects their chance. The shelters can put their resources to improve certain aspects of the animals.
-<br/><br>
-How do I evaluate the project’s success?
-With the implementation of the model, I would receive feedbacks from the animal shelter staffs and those who adopted the animals that are treated with the suggestions of my tool. Ask them if those suggested features affected their decision to adopt the animal. 
-<br/><br>
-What did I learn from this project.
-I learned how many animals truly go through this horrific process and how much the care they receive from animal shelters could change their faith. In certain regions, the rate of euthanasia is high due to overcrowding in shelters. To reduce the rate of euthanasia, we can get started from understanding how we can treat the animals in the shelter to improve their chance of getting adopted.
-<br/><br>
-What’s next for this project
-I would like to package this predictive model as a user-friendly tool and distribute to animal shelters. The staffs can use this tool during registration process for the new animal to receive suggestions on what the shelter could do to improve the chances of this animal get adopted, or at least avoid getting euthanized since the early stage of their stay at the shelter.
-<br/><img src='/images/Screen Shot 2021-10-24 at 4.47.16 PM.png'><br>
+The Rotten Tomatoes movie review dataset is a corpus of movie reviews used for sentiment analysis, originally collected by Pang and Lee. In their work on sentiment treebanks, Socher et al.  used Amazon's Mechanical Turk to create fine-grained labels for all parsed phrases in the corpus. This competition presents a chance to benchmark your sentiment-analysis ideas on the Rotten Tomatoes dataset. You are asked to label phrases on a scale of five values: negative, somewhat negative, neutral, somewhat positive, positive. Obstacles like sentence negation, sarcasm, terseness, language ambiguity, and many others make this task very challenging.
+<br/>
 
-Early intervention begins at the registration process of animal shelter
-to improve their chance to get adopted
+<img src='/images/Screen Shot 2021-10-29 at 2.49.06 PM.png'><br/>
+
+Figure 1: roBERTa encoder to preprocess text; LSTM model to output sentiment classification.
+<br/>
+
+roBERTa is a robustly optimized method for pretraining natural language processing (NLP) systems that improves on Bidirectional Encoder Representations from Transformers, or BERT, the self-supervised method released by Google in 2018. RoBERTa builds on BERT’s language masking strategy, wherein the system learns to predict intentionally hidden sections of text within otherwise unannotated language examples. RoBERTa, which was implemented in PyTorch, modifies key hyperparameters in BERT, including removing BERT’s next-sentence pretraining objective, and training with much larger mini-batches and learning rates. This allows RoBERTa to improve on the masked language modeling objective compared with BERT and leads to better downstream task performance.  
+<br/>
+
+Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture.  Relative insensitivity to gap length is an advantage of LSTM over other typical RNNs.
+<br/>
+
+<img src='/images/Screen Shot 2021-10-29 at 2.50.58 PM.png'><br/>
+
+Figure 2: Model evaluation
+The model is evaluated on classification accuracy (the percent of labels that are predicted correctly) for every parsed phrase. The sentiment labels are:
+0 - negative
+1 - somewhat negative
+2 - neutral
+3 - somewhat positive
+4 - positive
+<br/>
+
+What does it do?
+<br/>
+The model determines the sentimental value of movie reviews from Rotten Tomatoes from the written comments from users.
+<br/>
+How do I evaluate the project’s success?
+<br/>
+We can evaluate how accurate the sentiment values are from the movie reviews that the user has posted online. 
+<br/>
+What did I learn from this project.
+<br/>
+I learned how open-ended such movie reviews are and the diversity between the tone and the meanings behind each movie review. Being able to truly interpret a review is important before one watches a movie due to possible underlying messages behind it. So having a model that confirms the sentiment of a review is beneficial.
+<br/>
+What’s next for this project
+<br/>
+Moving from movie reviews to other forms of reviews like restaurants, tourist attractions, malls, etc. can also help people who never had experience be able to truly know if it is worth their time to visit a place.
 <br/>
 
