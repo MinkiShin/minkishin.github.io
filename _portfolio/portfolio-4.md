@@ -17,7 +17,6 @@ When you have limited data, deep models don't do very well. Deep learning models
 
 **Figure 1: Gradient-weighted Class Activation Mapping (Grad-CAM) Visual Explanations from Deep Networks via Gradient-based Localization**
 <br/>
-
 Now starts the most important part. How do we explain the output of our model? For example, given an image, what does the network consider important when classifying the image? Can we get info about it? Can we make our model a little grey box? 
 <br/>
 
