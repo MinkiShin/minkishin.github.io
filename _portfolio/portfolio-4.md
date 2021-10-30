@@ -44,6 +44,7 @@ For CAM, we will take the same sample image and get the output of the last convo
 <br/>
 
 **Figure 2: Model Evaluation**
+<br/>
 Confusion matrix is calculated by applying the completed CNN model to an independent test set comprised on 10 monkey species with 5,000 independent images.
 <br/>
 
