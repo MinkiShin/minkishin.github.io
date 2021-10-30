@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "A Little About Me"
+title: "Minki Shin"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am
-<br/>
-
 # Minki Shin
 
 
