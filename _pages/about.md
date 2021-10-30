@@ -11,7 +11,7 @@ I am
 <br/>
 
 # Minki Shin
-<br/>
+
 
 A data scientist and researcher. Inspired by real world problems. 
 <br/>
@@ -23,13 +23,13 @@ I am looking to begin my undergraduate study in Applied Math and Statistics. I a
 <br/>
 
 # A Data Scientist
-<br/>
+
 
 I am a self-learned expert in machine learning and big data analysis in various backgrounds including medical image, social media texts, and natural language in both english and sign language. 
 <br/>
 
 # Areas of Interest
-<br/>
+
 
 Take a look at some of the things I love working on.
 <br/>
