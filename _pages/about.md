@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Minki Shin
+
 
 
 A data scientist and researcher. Inspired by real world problems. 
