@@ -25,7 +25,7 @@ Examples of the policies include fines if animals are found wandering outside of
 <br/>
 Using a dataset of intake information including breed, color, sex, and age from the Austin Animal Center, we can understand trends in animal outcomes. These insights could help shelters focus their energy on specific animals who need a little extra help finding a new home.
 <br/><img src='/images/Screen Shot 2021-10-24 at 4.43.35 PM.png'><br/><br>
-**Figure 1: Overview of the dataset**
+**Figure 1: Overview of the Dataset**
 <br/>
 A. The faith of animals in the shelter are recorded for both cat and dog by time of day. They either get adopted, die, euthanized, returned to owner, or transferred to another shelter.
 <br/>
