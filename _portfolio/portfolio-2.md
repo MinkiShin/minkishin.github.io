@@ -14,7 +14,6 @@ It can be either: 1) Bacterial pneumonia 2) Viral Pneumonia 3) Mycoplasma pneumo
 <img src='/images/Screen Shot 2021-10-24 at 5.38.48 PM.png'><br/>
 
 **Figure 1: Overview of the Dataset**
-<br/>
 
 The dataset consists of 5,863 X-Ray images and 2 categories (Pneumonia/Normal). Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care. For the analysis of chest x-ray images, all chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert physicians before being cleared for training the AI system. In order to account for any grading errors, the evaluation set was also checked by a third expert.
 <img src='/images/Screen Shot 2021-10-24 at 5.43.22 PM.png'><br/>
