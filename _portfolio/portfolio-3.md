@@ -15,7 +15,6 @@ The Rotten Tomatoes movie review dataset is a corpus of movie reviews used for s
 
 **Figure 1: roBERTa encoder to preprocess text; LSTM model to output sentiment classification.**
 <br/>
-
 roBERTa is a robustly optimized method for pretraining natural language processing (NLP) systems that improves on Bidirectional Encoder Representations from Transformers, or BERT, the self-supervised method released by Google in 2018. RoBERTa builds on BERT’s language masking strategy, wherein the system learns to predict intentionally hidden sections of text within otherwise unannotated language examples. RoBERTa, which was implemented in PyTorch, modifies key hyperparameters in BERT, including removing BERT’s next-sentence pretraining objective, and training with much larger mini-batches and learning rates. This allows RoBERTa to improve on the masked language modeling objective compared with BERT and leads to better downstream task performance.  
 <br/>
 
@@ -26,13 +25,17 @@ Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) ar
 
 **Figure 2: Model evaluation**
 <br/>
-
 The model is evaluated on classification accuracy (the percent of labels that are predicted correctly) for every parsed phrase. The sentiment labels are:
-0 - negative
-1 - somewhat negative
-2 - neutral
-3 - somewhat positive
-4 - positive
+<br/>
+**0** - negative
+<br/>
+**1** - somewhat negative
+<br/>
+**2** - neutral
+<br/>
+**3** - somewhat positive
+<br/>
+**4** - positive
 <br/>
 
 **What does it do?**
