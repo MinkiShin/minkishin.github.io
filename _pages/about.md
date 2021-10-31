@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Minki Shin"
+title: "Min Ki Shin"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
