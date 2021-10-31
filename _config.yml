@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minki Shin"
+title                    : "Min Ki Shin"
 title_separator          : "-"
-name                     : &name "Minki Shin"
+name                     : &name "Min Ki Shin"
 description              : &description "High school senior"
 url                      : https://minkishin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
