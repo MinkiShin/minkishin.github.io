@@ -24,7 +24,7 @@ Examples of the policies include fines if animals are found wandering outside of
 
 **Exploratory Data Analysis**
 <br/>
-<img src='/images/Screen Shot 2021-12-25 at 11.40.37 PM.png'><br/>
+<img src='/images/Screen Shot 2021-12-25 at 11.40.37 PM.png' width="800"><br/>
 This distribution shows the general dataset I am working with and shows the total amount of dog and cat pictures that are used for this project. There are slightly more dogs than cats in the data.
 <br/>
 
