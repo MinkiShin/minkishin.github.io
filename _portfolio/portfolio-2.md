@@ -24,27 +24,27 @@ Examples of the policies include fines if animals are found wandering outside of
 
 **Exploratory Data Analysis**
 <br/>
-<img src='/images/Screen Shot 2021-12-25 at 11.40.37 PM.png' width="800"><br/>
+<img src='/images/Screen Shot 2021-12-25 at 11.40.37 PM.png' width="600"><br/>
 This distribution shows the general dataset I am working with and shows the total amount of dog and cat pictures that are used for this project. There are slightly more dogs than cats in the data.
 <br/>
 
-<img src='/images/Screen Shot 2021-12-25 at 11.41.07 PM.png'><br/>
+<img src='/images/Screen Shot 2021-12-25 at 11.41.07 PM.png' width="600"><br/>
 This distribution shows the total amount of animals that were returned to the owner, euthanized, adopted, transferred, or died. The two common outcomes are Adoption and Transfer.
 <br/>
 
-<img src='/images/Screen Shot 2021-12-26 at 1.27.54 AM.png'><br/>
+<img src='/images/Screen Shot 2021-12-26 at 1.27.54 AM.png' width="600"><br/>
 This distribution showcases each outcome that either the dog or cat had, and compares both statistics side by side. The dogs are more likely to return to owner or get adopted. 
 <br/>
 
-<img src='/images/Screen Shot 2021-12-26 at 1.28.07 AM.png'><br/>
+<img src='/images/Screen Shot 2021-12-26 at 1.28.07 AM.png' width="600"><br/>
 This distribution categorizes the data on the left with all of the categories for dog and all of the categories for cat combined. Cats are more likely to be transferred. 
 <br/>
 
-<img src='/images/Screen Shot 2021-12-25 at 11.42.04 PM.png'><br/>
+<img src='/images/Screen Shot 2021-12-25 at 11.42.04 PM.png' width="600"><br/>
 This distribution shows the genders for each outcome of the dogs or cats. Neutered Male and Spayed Female are more likely to be adopted. 
 <br/>
 
-<img src='/images/Screen Shot 2021-12-25 at 11.42.12 PM.png'><br/>
+<img src='/images/Screen Shot 2021-12-25 at 11.42.12 PM.png' width="600"><br/>
 This distribution flips the categories from the distribution on the left and instead shows each outcome type for each gender. Transfer is more common among Intact Male, Intact Female and Unknown.
 <br/>
 
