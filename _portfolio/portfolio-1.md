@@ -23,7 +23,7 @@ CNN is the standard in performing image classification task. We used ResNet whic
 <br/><img src='/images/Screen Shot 2021-10-24 at 5.43.29 PM.png'><br/>
 **Figure 3: Model Evaluation**
 <br/>
-Confusion matrix is calculated by applying the completed CNN model to an independent test set comprised on X-ray images unseen during the training process. Precision and recall are the two metrics used to evaluation the model. 
+Confusion matrix is calculated by applying the completed CNN model to an independent test set comprised on X-ray images unseen during the training process. Precision and recall are the two metrics used to evaluation the model. The precision is 0.88 and the recall is 0.98. The precision tells how many of positive predictions were actually correct. In this example, the model classified that 432 people have Pneumonia and 382 of them indeed have Pneumonia. In medical field, a high precision is very important because we don’t want to give a false diagnosis to a healthy person. On the other hand, the recall tells how many of your actual positive Pneumonia cases were predicted correctly. In this case, 382 Pneumonia cases were predicted correctly among 390 total Pneumonia cases. 
 <br/>
 
 **What does it do?** 
@@ -39,7 +39,7 @@ I would monitor the results and receive feedbacks from clinicians and ask if tho
 
 **What did I learn from this project** 
 <br/>
-I learned how common it is for people to get contract pneumonia as over a million people are diagnosed each year. However, such a disease is hard to diagnose as the symptoms of coughing, fever, and chest discomfort is very synonymous with that of the flu or the common cold. Therefore, it was imperative to find other easier solutions to accurately diagnose diseases like pneumonia, like so using X-Rays.
+I learned how common it is for people to get contract pneumonia as over a million people are diagnosed each year. However, such a disease is hard to diagnose as the symptoms of coughing, fever, and chest discomfort is very synonymous with that of the flu or the common cold. Therefore, it was imperative to find other easier solutions to accurately diagnose diseases like pneumonia, like so using X-Rays. While training CNN model, I noticed that my model is overfitting the training data because the test error was a lot lower than the training error. To correct this overfitting, I used the drop out technique to randomly set some activations to 0. I also learned the concept of backpropagation, used to adjust the weight to minimize the loss, and gradient descent, used to find the minimum loss, to understand how neural network algorithms work.
 <br/>
 
 **What’s next for this project**
