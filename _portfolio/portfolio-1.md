@@ -45,5 +45,5 @@ I learned how common it is for people to get contract pneumonia as over a millio
 **What’s next for this project**
 <br/>
 This pneumonia diagnostic tool is developed using a dataset with limited cohort from Guangzhou, China. For expanded usage of this tool, we need to build a diagnostic model that covers various race and gender. Once this pneumonia diagnostic tool gains credible reputation, the medical staffs can use this tool to not only diagnose pneumonia, but also assist doctors in confirming such diagnostics retrospectively for quality control purpose.
-<br/><img src='/images/Screen Shot 2021-10-24 at 5.45.20 PM.png'><br/>
+<br/><img src='/images/Screen Shot 2021-10-24 at 5.45.20 PM.png' width="600"><br/>
 
