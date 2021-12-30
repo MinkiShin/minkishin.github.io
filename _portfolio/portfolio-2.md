@@ -4,7 +4,7 @@ excerpt: "Help Improve Outcomes for Shelter Animals<br/><img src='/images/dog.pn
 collection: portfolio
 ---
 
-<img src='/images/dog.png'><br/>
+<img src='/images/dog.png' width="600"><br/>
 
 **Background**
 <br>
