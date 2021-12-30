@@ -52,7 +52,7 @@ This distribution flips the categories from the distribution on the left and ins
 **Overview of the dataset**
 <br/>
 Using a dataset of intake information including breed, color, sex, and age from the Austin Animal Center, we can understand trends in animal outcomes. These insights could help shelters focus their energy on specific animals who need a little extra help finding a new home.
-<br/><img src='/images/Screen Shot 2021-10-24 at 4.43.35 PM.png'><br/><br>
+<br/><img src='/images/Screen Shot 2021-10-24 at 4.43.35 PM.png' width="600"><br/><br>
 **Figure 1: Overview of the Dataset**
 <br/>
 **A.** The faith of animals in the shelter are recorded for both cat and dog by time of day. They either get adopted, die, euthanized, returned to owner, or transferred to another shelter. For both cats and dogs, the adoption rate is higher in late day.
@@ -64,18 +64,18 @@ Using a dataset of intake information including breed, color, sex, and age from 
 **D.** Number of dogs by the breed in logarithmic scale. The dataset is highly imbalanced by the breed. Weighted model by the class sample size is recommended.
 <br/>
 
-<img src='/images/Screen Shot 2021-10-24 at 4.43.46 PM.png'><br/><br>
+<img src='/images/Screen Shot 2021-10-24 at 4.43.46 PM.png' width="600"><br/><br>
 **Figure 2: Building Weighted Random Forest Model**
 <br/>
 I built a random forest model weighted by the correlation of each variables to the outcome. The variables include Age, Intact, Time of day, Color, Name, Animal type, Sex, Mixed breed. 
-<br/><img src='/images/Screen Shot 2021-10-24 at 4.43.55 PM.png'><br>
+<br/><img src='/images/Screen Shot 2021-10-24 at 4.43.55 PM.png' width="600"><br>
 **Figure 3: Model Evaluation**
 <br/>
 The loss function of the model is the multi-class logarithmic loss. where N is the number of animals in the test set, M is the number of outcomes; y is 1 if observation is in outcome and 0 otherwise, and p is the predicted probability that observation i belongs to outcome j.  As shown in the plot, the training score is much higher than the cross validation score which indicates there is overfitting. When overfitting, we can use less complicated model to resolve the issue. 
 <br/><br>
 
 **Model Interpretation**
-<img src='/images/Screen Shot 2021-12-26 at 1.35.10 AM.png'><br/>
+<img src='/images/Screen Shot 2021-12-26 at 1.35.10 AM.png' width="600"><br/>
 The top features are Age upon Outcome, Hour, Sterilized Intact,  Breed Type and Month. 
 <br/>
 
@@ -100,7 +100,7 @@ I learned how many animals truly go through this horrific process and how much t
 **What’s next for this project?**
 <br/>
 I would like to package this predictive model as a user-friendly tool and distribute to animal shelters. The staffs can use this tool during registration process for the new animal to receive suggestions on what the shelter could do to improve the chances of this animal get adopted, or at least avoid getting euthanized since the early stage of their stay at the shelter.
-<br/><img src='/images/Screen Shot 2021-10-24 at 4.47.16 PM.png'><br>
+<br/><img src='/images/Screen Shot 2021-10-24 at 4.47.16 PM.png' width="600"><br>
 
 Early intervention begins at the registration process of animal shelter
 to improve their chance to get adopted
