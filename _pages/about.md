@@ -18,3 +18,8 @@ I want to take on new challenges with colleagues with new perspectives in a vibr
 
 I enjoy playing basketball, watching movies, and listening to music. I love exploring the world of painting, designing issues as editor of a school magazine, and interacting with my community friends.
 <br/>
+
+<img src='/images/Portfolio3.jpg'><br/>
+<img src='/images/Portfolio2.jpg'><br/>
+<img src='/images/Portfolio1.jpg'><br/>
+
