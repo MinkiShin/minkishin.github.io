@@ -18,9 +18,3 @@ My passion is working with hidden pattern recognition, data mining and visualiza
 
 I am excited about tackling new challenges with colleagues of new perspectives in a vibrant community.
 <br/>
-
-# A Data Scientist
-
-
-I am a self-learned expert in machine learning and big data analysis in various backgrounds including medical image, social media texts, and natural language in both english and sign language. 
-<br/>
