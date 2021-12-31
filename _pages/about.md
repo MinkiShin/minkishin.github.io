@@ -16,7 +16,7 @@ My passion is to express myself in math, science, and statistics, and I am excit
 I want to take on new challenges with colleagues with new perspectives in a vibrant community.
 <br/>
 
-I enjoy playing basketball, watching movies, and listening to music. I love exploring the world of painting, designing issues as editor of a school magazine, and interacting with my community friends.
+I enjoy playing basketball, solving Rubik's Cubes, and listening to music. I love exploring the world of painting, designing issues as editor of a school magazine, and interacting with my community friends.
 <br/>
 
 <img src='/images/Portfolio3.jpg'><br/>
