@@ -10,11 +10,11 @@ redirect_from:
 
 
 
-A data scientist and researcher. Inspired by real world problems. 
+My passion is to express myself in math, science, and statistics, and I am excited to explore the vast array of technologies that can create a beneficial impact in the future.
 <br/>
 
-My passion is working with hidden pattern recognition, data mining and visualization in order to develop software and hardware tools that help empower those in need. 
+I want to take on new challenges with colleagues with new perspectives in a vibrant community.
 <br/>
 
-I am excited about tackling new challenges with colleagues of new perspectives in a vibrant community.
+I enjoy playing basketball, watching movies, and listening to music. I love exploring the world of painting, designing issues as editor of a school magazine, and interacting with my community friends.
 <br/>
